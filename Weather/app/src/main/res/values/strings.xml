@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="internet_na">internet is not avialable</string>
+    <string name="blank_city">Please enter the city name</string>
+    <string name="cityname_digit">City name should not contain digits</string>
+    <string name="url">https://api.openweathermap.org/data/2.5/weather?q=</string>
+    <string name="appid"><![CDATA[&appid=]]></string>
+    <string name="Main">main</string>
+    <string name="Sys">sys</string>
+    <string name="Weather">weather</string>
+    <string name="Cloud">clouds</string>
+    <string name="Description">description</string>
+    <string name="Temperature">temp</string>
+    <string name="Minimum">Min.</string>
+    <string name="Maximum">Max.</string>
+    <string name="country">country</string>
+    <string name="name">name</string>
+    <string name="humidity">humidity</string>
+    <string name="humidity_text">Humidity</string>
+    <string name="All">all</string>
+    <string name="cloud_text">Clouds</string>
+    <string name="temp_min">temp_min</string>
+    <string name="temp_max">temp_max</string>
+    <string name="invalid_city">city name is invalid</string>
+    <string name="enter_valid_city">Please enter the valid city name</string>
+    <string-array name="cities">
+        <item>Halifax</item>
+        <item>Ottawa</item>
+        <item>Surat</item>
+        <item>Mumbai</item>
+        <item>Rajkot</item>
+        <item>London</item>
+        <item>California</item>
+        <item>Delhi</item>
+        <item>Jersey</item>
+        <item>Vadodara</item>
+        <item>Arizona</item>
+        <item>Chennai</item>
+        <item>Hyderabad</item>
+        <item>Bangalore</item>
+        <item>Chandigarh</item>
+        <item>Prague</item>
+        <item>Kolkata</item>
+        <item>Miami</item>
+        <item>Kerala</item>
+        <item>Bhopal</item>
+        <item>Indore</item>
+        <item>Toronto</item>
+        <item>Montreal</item>
+        <item>Vancouver</item>
+        <item>Calgary</item>
+        <item>Winnipeg</item>
+        <item>Edmonton</item>
+        <item>Saskatoon</item>
+        <item>Victoria</item>
+        <item>Hamilton</item>
+        <item>Regina</item>
+        <item>Guelph</item>
+        <item>Windsor</item>
+        <item>London</item>
+        <item>Waterloo</item>
+        <item>Pattaya</item>
+        <item>Mississauga</item>
+        <item>Thunder Bay</item>
+        <item>San Francisco</item>
+        <item>Los Angeles</item>
+        <item>Boston</item>
+        <item>New York</item>
+        <item>Pune</item>
+        <item>Seattle</item>
+        <item>Austin</item>
+        <item>Chicago</item>
+        <item>Denver</item>
+        <item>Houston</item>
+        <item>San Diego</item>
+        <item>Dallas</item>
+        <item>San Antonio</item>
+        <item>San Jose</item>
+        <item>Las Vegas</item>
+        <item>Detroit</item>
+        <item>Paris</item>
+        <item>Sydney</item>
+        <item>Perth</item>
+        <item>Canberra</item>
+    </string-array>
+</resources>

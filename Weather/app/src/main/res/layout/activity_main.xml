@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Primary Linear Layout for weather application having vertical
+     Orientation and default image-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/image_weather"
+    android:background="@drawable/sunny_sky">
+
+    <!--Autocomplete text view takes the input as a city name and also provide
+        a auto complete drop down which helps user to identify the city-->
+    <AutoCompleteTextView
+
+        android:id="@+id/l_city"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:ems="20"
+        android:background="@drawable/rectangle"
+        android:hint="Enter City Name eg. Halifax"
+        android:textSize="23dp"
+        android:padding="5dp"
+        android:singleLine="true"/>
+
+    <!-- By clicking this button it displays the weather information-->
+    <Button
+        android:id="@+id/bt_weather"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Get Weather"
+        android:drawableRight="@drawable/ic_wb_sunny_black_24dp"
+        android:padding="12dp"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        />
+
+    <!-- Textview where our entered city with its country name will be displayed-->
+    <TextView
+        android:id="@+id/l_cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <!-- Textview which display the temperature for the given city in Celcius-->
+    <TextView
+        android:id="@+id/l_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#000000"
+        android:textSize="70dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <!-- Nested linear layout which display the minimum and maximum temperature-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <!-- Textview which display the minimum temperature in celcius-->
+
+        <TextView
+            android:id="@+id/minimum_tempereature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            />
+
+        <!-- Textview to display the maximum temperature-->
+
+        <TextView
+            android:id="@+id/maximun_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:textColor="#000000"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <!-- Linear layout which provides main weather and its description-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        >
+
+        <!-- Textview to display the main weather-->
+        <TextView
+            android:id="@+id/main_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+        <!-- Textview which shows the description of the weather-->
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <!-- Linear layout which display the humidity percentage and cloud percentage-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+
+        <!-- Textview which displays the percentage humidity-->
+
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <!-- Textview which displays the percentage of clouds-->
+        <TextView
+            android:id="@+id/clouds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
